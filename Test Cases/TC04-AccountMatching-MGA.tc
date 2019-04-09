@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is Account Matching OF MGA</description>
+   <name>TC04-AccountMatching-MGA</name>
+   <tag>AccountMatching</tag>
+   <comment></comment>
+   <testCaseGuid>4323eca4-4d5a-4f43-8cdc-ad6c46b2602a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7aa213af-01dc-4774-96b7-8e9d7c39244b</id>
+      <masked>false</masked>
+      <name>MTA_Policy_No</name>
+   </variable>
+</TestCaseEntity>

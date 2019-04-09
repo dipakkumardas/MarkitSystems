@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-05 17:17:45,2019-04-05 17:17:54,9.180s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-05 17:17:53,2019-04-05 17:17:53,0.188s,ERROR

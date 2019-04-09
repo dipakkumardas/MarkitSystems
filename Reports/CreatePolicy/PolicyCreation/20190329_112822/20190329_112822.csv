@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,,,2019-03-29 11:28:24,2019-03-29 11:28:27,3.694s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,,,2019-03-29 11:28:24,2019-03-29 11:28:27,2.757s,FAILED
+"openBrowser("""")",,,2019-03-29 11:28:24,2019-03-29 11:28:27,2.461s,FAILED
+,,,,,,
+Test Cases/TC02-CreatePolicy,,This test case is for create the Policy,2019-03-29 11:28:27,2019-03-29 11:28:27,0.177s,FAILED
+waitForJQueryLoad(10),,,2019-03-29 11:28:27,2019-03-29 11:28:27,0.016s,FAILED

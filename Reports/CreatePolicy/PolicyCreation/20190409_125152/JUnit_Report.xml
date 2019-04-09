@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="119" tests="2" failures="0" errors="0">
+   <testsuite name="PolicyCreation" tests="2" failures="0" errors="0" time="119" timestamp="2019-04-09 12:51:55" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190409_125152"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190409_125152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="7c74ab7cdc1f197e3a956de04e5bcf24"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-09 12:52:08 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-09 12:52:08 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-09 12:52:08 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-09 12:52:08 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-09 12:52:08 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-09 12:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-09 12:52:09 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-09 12:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-09 12:52:09 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-09 12:52:09 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-09 12:52:13 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-09 12:52:13 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-09 12:52:13 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-09 12:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-09 12:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-09 12:52:20 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-09 12:52:20 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-09 12:52:20 - [TEST_STEP][NOT_RUN] - log.logInfo(“Dipak”): NOT_RUN: log.logInfo(“Dipak”)
+
+2019-04-09 12:52:20 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(“Dipak”)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-CreatePolicy" classname="Test Cases/TC02-CreatePolicy" status="PASSED">
+         <system-out><![CDATA[2019-04-09 12:52:20 - [TEST_CASE][PASSED] - Test Cases/TC02-CreatePolicy: Test Cases/TC02-CreatePolicy
+
+2019-04-09 12:52:20 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null
+
+2019-04-09 12:52:20 - [TEST_STEP][PASSED] - waitForJQueryLoad(10): jQuery is ready.
+
+2019-04-09 12:52:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:20 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/DashBoard/ClientSearchLink")): Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-04-09 12:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-04-09 12:52:22 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), "Dipak"): Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-04-09 12:52:22 - [MESSAGE][PASSED] - Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-04-09 12:52:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:52:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:52:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-04-09 12:52:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-04-09 12:52:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-09 12:52:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-09 12:52:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TC-CreatePolicy/ClientListing/ClientListAction"), 3): Object 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clickable
+
+2019-04-09 12:52:31 - [MESSAGE][PASSED] - Object 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clickable
+
+2019-04-09 12:52:31 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/ClientListing/ClientListAction")): Object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clicked on
+
+2019-04-09 12:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clicked on
+
+2019-04-09 12:52:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 12:52:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 12:52:36 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/ClientListing/StartQuote")): Object: 'Object Repository/TC-CreatePolicy/ClientListing/StartQuote' is clicked on
+
+2019-04-09 12:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/ClientListing/StartQuote' is clicked on
+
+2019-04-09 12:52:40 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-09 12:52:41 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/GeneralDetails/SelectCurrency"), "USD", true): All options with label 'USD' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectCurrency'  using regular expression
+
+2019-04-09 12:52:41 - [MESSAGE][PASSED] - All options with label 'USD' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectCurrency'  using regular expression
+
+2019-04-09 12:52:41 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/GeneralDetails/SelectBroker"), "New Broker", true): All options with label 'New Broker' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectBroker'  using regular expression
+
+2019-04-09 12:52:42 - [MESSAGE][PASSED] - All options with label 'New Broker' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectBroker'  using regular expression
+
+2019-04-09 12:52:42 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-09 12:52:42 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:42 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/GeneralDetails/SelectProduct"), "BasicDemoProduct", false): All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectProduct' 
+
+2019-04-09 12:52:42 - [MESSAGE][PASSED] - All options with label 'BasicDemoProduct' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectProduct' 
+
+2019-04-09 12:52:42 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-09 12:52:43 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:43 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/GeneralDetails/SelectPolicyTerm"), "Yearly", false): All options with label 'Yearly' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectPolicyTerm' 
+
+2019-04-09 12:52:43 - [MESSAGE][PASSED] - All options with label 'Yearly' are selected in object 'Object Repository/TC-CreatePolicy/GeneralDetails/SelectPolicyTerm' 
+
+2019-04-09 12:52:43 - [TEST_STEP][PASSED] - waitForJQueryLoad(3): jQuery is ready.
+
+2019-04-09 12:52:43 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:43 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("TC-CreatePolicy/GeneralDetails/SelectTimeZone"), "343", false): NOT_RUN: selectOptionByValue(findTestObject("TC-CreatePolicy/GeneralDetails/SelectTimeZone"), "343", false)
+
+2019-04-09 12:52:43 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("TC-CreatePolicy/GeneralDetails/SelectTimeZone"), "343", false)
+
+2019-04-09 12:52:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 12:52:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 12:52:46 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/GeneralDetails/NextButton")): Object: 'Object Repository/TC-CreatePolicy/GeneralDetails/NextButton' is clicked on
+
+2019-04-09 12:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/GeneralDetails/NextButton' is clicked on
+
+2019-04-09 12:52:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:52:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:52:51 - [TEST_STEP][PASSED] - if (var_Alert.equals("Cancel")): Delayed 5 second(s)
+
+2019-04-09 12:52:51 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/GeneralDetails/ButtonCancel")): Object: 'Object Repository/TC-CreatePolicy/GeneralDetails/ButtonCancel' is clicked on
+
+2019-04-09 12:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/GeneralDetails/ButtonCancel' is clicked on
+
+2019-04-09 12:52:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-09 12:52:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-09 12:52:58 - [TEST_STEP][PASSED] - waitForJQueryLoad(5, STOP_ON_FAILURE): jQuery is ready.
+
+2019-04-09 12:52:58 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:52:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/RiskDetails/Type"), "Flat", false): All options with label 'Flat' are selected in object 'Object Repository/TC-CreatePolicy/RiskDetails/Type' 
+
+2019-04-09 12:52:58 - [MESSAGE][PASSED] - All options with label 'Flat' are selected in object 'Object Repository/TC-CreatePolicy/RiskDetails/Type' 
+
+2019-04-09 12:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/SumInsurreTextBox"), "1000"): Text '1000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox'
+
+2019-04-09 12:52:58 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox'
+
+2019-04-09 12:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/RoomNo"), "4"): Text '4' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo'
+
+2019-04-09 12:52:59 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo'
+
+2019-04-09 12:52:59 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/ContentSumInsure"), "2000"): Text '2000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure'
+
+2019-04-09 12:52:59 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure'
+
+2019-04-09 12:52:59 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/RiskDetails/Save")): Object: 'Object Repository/TC-CreatePolicy/RiskDetails/Save' is clicked on
+
+2019-04-09 12:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/RiskDetails/Save' is clicked on
+
+2019-04-09 12:53:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:53:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:53:15 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/Premium/BindButton")): Object: 'Object Repository/TC-CreatePolicy/Premium/BindButton' is clicked on
+
+2019-04-09 12:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/Premium/BindButton' is clicked on
+
+2019-04-09 12:53:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:53:22 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/PaymentDetails/PaymentMethods")): Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/PaymentMethods' is clicked on
+
+2019-04-09 12:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/PaymentMethods' is clicked on
+
+2019-04-09 12:53:22 - [TEST_STEP][PASSED] - waitForJQueryLoad(4): jQuery is ready.
+
+2019-04-09 12:53:22 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-09 12:53:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment"), "1", false): All options with label '1' are selected in object 'Object Repository/TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment' 
+
+2019-04-09 12:53:22 - [MESSAGE][PASSED] - All options with label '1' are selected in object 'Object Repository/TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment' 
+
+2019-04-09 12:53:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-09 12:53:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-09 12:53:26 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/PaymentDetails/ConfirmPaymentType")): Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/ConfirmPaymentType' is clicked on
+
+2019-04-09 12:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/ConfirmPaymentType' is clicked on
+
+2019-04-09 12:53:26 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-09 12:53:30 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-09 12:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/PaymentDetails/EmailText"), "dipak.das@mailinator.com"): Text 'dipak.das@mailinator.com' is set on object 'Object Repository/TC-CreatePolicy/PaymentDetails/EmailText'
+
+2019-04-09 12:53:30 - [MESSAGE][PASSED] - Text 'dipak.das@mailinator.com' is set on object 'Object Repository/TC-CreatePolicy/PaymentDetails/EmailText'
+
+2019-04-09 12:53:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule"), 5): Scroll to object 'Object Repository/TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule' successfully
+
+2019-04-09 12:53:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule' successfully
+
+2019-04-09 12:53:30 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-09 12:53:36 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-09 12:53:36 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule")): Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule' is clicked on
+
+2019-04-09 12:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule' is clicked on
+
+2019-04-09 12:53:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:53:42 - [TEST_STEP][NOT_RUN] - PolicyNo_Global = getText(findTestObject("TC-CreatePolicy/Premium/PolicyNo")): NOT_RUN: PolicyNo_Global = getText(findTestObject("TC-CreatePolicy/Premium/PolicyNo"))
+
+2019-04-09 12:53:42 - [MESSAGE][NOT_RUN] - NOT_RUN: PolicyNo_Global = getText(findTestObject("TC-CreatePolicy/Premium/PolicyNo"))
+
+2019-04-09 12:53:42 - [TEST_STEP][PASSED] - Get_Policy_No = getText(findTestObject("TC-CreatePolicy/Premium/PolicyNo")): Text of object 'Object Repository/TC-CreatePolicy/Premium/PolicyNo' is: 'DASD/POLICY/002743'
+
+2019-04-09 12:53:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC-CreatePolicy/Premium/PolicyNo' is: 'DASD/POLICY/002743'
+
+2019-04-09 12:53:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-09 12:53:47 - [TEST_STEP][NOT_RUN] - out.println(PolicyNo_Global): NOT_RUN: out.println(PolicyNo_Global)
+
+2019-04-09 12:53:47 - [MESSAGE][NOT_RUN] - NOT_RUN: out.println(PolicyNo_Global)
+
+2019-04-09 12:53:47 - [TEST_STEP][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel("E:\MarkitCore\CoreApplication\Data Files\TestData\policy.xlsx", "policy", Get_Policy_No): com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-04-09 12:53:49 - [MESSAGE][PASSED] - com.excel.helper.ExcelHelper.updateTheExcel is PASSED
+
+2019-04-09 12:53:49 - [TEST_STEP][NOT_RUN] - log.logInfo(PolicyNo_Global): NOT_RUN: log.logInfo(PolicyNo_Global)
+
+2019-04-09 12:53:49 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(PolicyNo_Global)
+
+2019-04-09 12:53:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-09 12:53:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-09 12:51:55 - [TEST_SUITE][PASSED] - PolicyCreation: Test Cases/TC02-CreatePolicy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

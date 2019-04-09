@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-05 15:33:41,2019-04-05 15:37:19,3m - 38.098s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:34:06,16.276s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:33:50,0.004s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:33:50,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:33:50,0.217s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:33:50,0.156s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-05 15:33:50,2019-04-05 15:33:54,4.030s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-05 15:33:54,2019-04-05 15:33:54,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-05 15:33:54,2019-04-05 15:34:06,11.710s,PASSED
+,,,,,,
+Test Cases/TC02-CreatePolicy,Chrome 73.0.3683.86,This test case is for create the Policy,2019-04-05 15:34:06,2019-04-05 15:35:42,1m - 35.816s,PASSED
+waitForJQueryLoad(10),Chrome 73.0.3683.86,,2019-04-05 15:34:06,2019-04-05 15:34:07,0.556s,PASSED
+"click(findTestObject(""TC-CreatePolicy/DashBoard/ClientSearchLink""))",Chrome 73.0.3683.86,,2019-04-05 15:34:07,2019-04-05 15:34:08,1.538s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), ""Dipak"")",Chrome 73.0.3683.86,,2019-04-05 15:34:08,2019-04-05 15:34:09,0.241s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:34:09,2019-04-05 15:34:14,5.003s,PASSED
+"sendKeys(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-05 15:34:14,2019-04-05 15:34:14,0.059s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-05 15:34:14,2019-04-05 15:34:18,4.002s,PASSED
+"waitForElementClickable(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""), 3)",Chrome 73.0.3683.86,,2019-04-05 15:34:18,2019-04-05 15:34:18,0.056s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""))",Chrome 73.0.3683.86,,2019-04-05 15:34:18,2019-04-05 15:34:19,1.391s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:34:19,2019-04-05 15:34:22,3.004s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/StartQuote""))",Chrome 73.0.3683.86,,2019-04-05 15:34:22,2019-04-05 15:34:32,10.455s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:34:32,2019-04-05 15:34:34,1.135s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectCurrency""), ""USD"", true)",Chrome 73.0.3683.86,,2019-04-05 15:34:34,2019-04-05 15:34:34,0.225s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectBroker""), ""New Broker"", true)",Chrome 73.0.3683.86,,2019-04-05 15:34:34,2019-04-05 15:34:35,0.731s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:34:35,2019-04-05 15:34:35,0.518s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectProduct""), ""BasicDemoProduct"", false)",Chrome 73.0.3683.86,,2019-04-05 15:34:35,2019-04-05 15:34:35,0.101s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:34:35,2019-04-05 15:34:36,0.529s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectPolicyTerm""), ""Yearly"", false)",Chrome 73.0.3683.86,,2019-04-05 15:34:36,2019-04-05 15:34:36,0.108s,PASSED
+waitForJQueryLoad(3),Chrome 73.0.3683.86,,2019-04-05 15:34:36,2019-04-05 15:34:36,0.522s,PASSED
+"selectOptionByValue(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectTimeZone""), ""343"", false)",Chrome 73.0.3683.86,,2019-04-05 15:34:36,2019-04-05 15:34:36,0.002s,NOT_RUN
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:34:36,2019-04-05 15:34:39,3.004s,PASSED
+"click(findTestObject(""TC-CreatePolicy/GeneralDetails/NextButton""))",Chrome 73.0.3683.86,,2019-04-05 15:34:39,2019-04-05 15:34:39,0.090s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:34:39,2019-04-05 15:34:44,5.002s,PASSED
+"if (var_Alert.equals(""Cancel""))",Chrome 73.0.3683.86,,2019-04-05 15:34:44,2019-04-05 15:35:03,18.964s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:35:03,2019-04-05 15:35:08,5.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/Premium/BindButton""))",Chrome 73.0.3683.86,,2019-04-05 15:35:08,2019-04-05 15:35:10,1.890s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:35:10,2019-04-05 15:35:15,5.004s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/PaymentMethods""))",Chrome 73.0.3683.86,,2019-04-05 15:35:15,2019-04-05 15:35:15,0.074s,PASSED
+waitForJQueryLoad(4),Chrome 73.0.3683.86,,2019-04-05 15:35:15,2019-04-05 15:35:15,0.019s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment""), ""1"", false)",Chrome 73.0.3683.86,,2019-04-05 15:35:15,2019-04-05 15:35:15,0.062s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-05 15:35:15,2019-04-05 15:35:19,4.002s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/ConfirmPaymentType""))",Chrome 73.0.3683.86,,2019-04-05 15:35:19,2019-04-05 15:35:20,0.083s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-05 15:35:20,2019-04-05 15:35:24,4.002s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/PaymentDetails/EmailText""), ""dipak.das@mailinator.com"")",Chrome 73.0.3683.86,,2019-04-05 15:35:24,2019-04-05 15:35:25,1.395s,PASSED
+"scrollToElement(findTestObject(""TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule""), 5)",Chrome 73.0.3683.86,,2019-04-05 15:35:25,2019-04-05 15:35:25,0.039s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-05 15:35:25,2019-04-05 15:35:31,6.004s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule""))",Chrome 73.0.3683.86,,2019-04-05 15:35:31,2019-04-05 15:35:31,0.106s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:35:31,2019-04-05 15:35:36,5.002s,PASSED
+"PolicyNo_Global = getText(findTestObject(""TC-CreatePolicy/Premium/PolicyNo""))",Chrome 73.0.3683.86,,2019-04-05 15:35:36,2019-04-05 15:35:37,0.583s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:35:37,2019-04-05 15:35:42,5.003s,PASSED
+out.println(PolicyNo_Global),Chrome 73.0.3683.86,,2019-04-05 15:35:42,2019-04-05 15:35:42,0.013s,PASSED
+,,,,,,
+Test Cases/TC03-MTA,Chrome 73.0.3683.86,,2019-04-05 15:35:42,2019-04-05 15:37:02,1m - 20.381s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:35:42,2019-04-05 15:35:42,0.015s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Chrome 73.0.3683.86,,2019-04-05 15:35:42,2019-04-05 15:35:43,1.503s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:35:43,2019-04-05 15:35:46,2.606s,PASSED
+"setText(findTestObject(""TC03-MTA/SearchFields""), PolicyNo_Global)",Chrome 73.0.3683.86,,2019-04-05 15:35:46,2019-04-05 15:35:46,0.142s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-05 15:35:46,2019-04-05 15:35:50,4.004s,PASSED
+"sendKeys(findTestObject(""TC03-MTA/SearchFields""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-05 15:35:50,2019-04-05 15:35:50,0.054s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:35:50,2019-04-05 15:35:55,5.003s,PASSED
+"click(findTestObject(""TC03-MTA/ClickEdit""))",Chrome 73.0.3683.86,,2019-04-05 15:35:55,2019-04-05 15:35:56,1.210s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-05 15:35:56,2019-04-05 15:35:58,2.010s,PASSED
+"click(findTestObject(""TC03-MTA/MTA TAB""))",Chrome 73.0.3683.86,,2019-04-05 15:35:58,2019-04-05 15:35:59,1.009s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:35:59,2019-04-05 15:36:01,1.085s,PASSED
+"click(findTestObject(""TC03-MTA/GO BUTTON""))",Chrome 73.0.3683.86,,2019-04-05 15:36:01,2019-04-05 15:36:06,5.744s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:36:06,2019-04-05 15:36:07,1.120s,PASSED
+"selectOptionByLabel(findTestObject(""TC03-MTA/MTA Resons Type""), ""Reason Description MTA"", false)",Chrome 73.0.3683.86,,2019-04-05 15:36:07,2019-04-05 15:36:08,0.098s,PASSED
+"setText(findTestObject(""TC03-MTA/MTAReasonTextArea""), ""Only For Testing Purpose."")",Chrome 73.0.3683.86,,2019-04-05 15:36:08,2019-04-05 15:36:08,0.145s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:36:08,2019-04-05 15:36:13,5.001s,PASSED
+"click(findTestObject(""TC03-MTA/MTAResonsSaveButton""))",Chrome 73.0.3683.86,,2019-04-05 15:36:13,2019-04-05 15:36:15,2.336s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-05 15:36:15,2019-04-05 15:36:19,4.010s,PASSED
+"click(findTestObject(""TC03-MTA/EditRiskItemListing""))",Chrome 73.0.3683.86,,2019-04-05 15:36:19,2019-04-05 15:36:21,1.965s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/RiskDetails/Type""), ""Duplex"", false)",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:21,0.200s,PASSED
+"clearText(findTestObject(""TC-CreatePolicy/RiskDetails/SumInsurreTextBox""))",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:21,0.089s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/RiskDetails/SumInsurreTextBox""), ""4000"")",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:21,0.096s,PASSED
+"clearText(findTestObject(""TC-CreatePolicy/RiskDetails/RoomNo""))",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:21,0.065s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/RiskDetails/RoomNo""), ""2"")",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:21,0.075s,PASSED
+"clearText(findTestObject(""TC-CreatePolicy/RiskDetails/ContentSumInsure""))",Chrome 73.0.3683.86,,2019-04-05 15:36:21,2019-04-05 15:36:22,0.060s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/RiskDetails/ContentSumInsure""), ""2000"")",Chrome 73.0.3683.86,,2019-04-05 15:36:22,2019-04-05 15:36:22,0.082s,PASSED
+"click(findTestObject(""TC03-MTA/MTASaveButton""))",Chrome 73.0.3683.86,,2019-04-05 15:36:22,2019-04-05 15:36:31,8.920s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:36:31,2019-04-05 15:36:32,1.123s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:36:32,2019-04-05 15:36:37,5.003s,PASSED
+"APRPValue = getAttribute(findTestObject(""TC03-MTA/APandRPValue""), ""value"")",Chrome 73.0.3683.86,,2019-04-05 15:36:37,2019-04-05 15:36:37,0.043s,PASSED
+out.println(APRPValue),Chrome 73.0.3683.86,,2019-04-05 15:36:37,2019-04-05 15:36:37,0.001s,PASSED
+"click(findTestObject(""TC03-MTA/EmailQuoteButtonClick""))",Chrome 73.0.3683.86,,2019-04-05 15:36:37,2019-04-05 15:36:37,0.000s,NOT_RUN
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:36:37,2019-04-05 15:36:37,0.000s,NOT_RUN
+"click(findTestObject(""TC03-MTA/Complete""))",Chrome 73.0.3683.86,,2019-04-05 15:36:37,2019-04-05 15:36:40,2.800s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:36:40,2019-04-05 15:36:45,5.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/PaymentMethods""))",Chrome 73.0.3683.86,,2019-04-05 15:36:45,2019-04-05 15:36:45,0.081s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment""), ""1"", false)",Chrome 73.0.3683.86,,2019-04-05 15:36:45,2019-04-05 15:36:45,0.065s,PASSED
+"delay(5, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-05 15:36:45,2019-04-05 15:36:50,5.002s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/ConfirmPaymentType""))",Chrome 73.0.3683.86,,2019-04-05 15:36:50,2019-04-05 15:36:50,0.084s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:36:50,2019-04-05 15:36:50,0.014s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:36:50,2019-04-05 15:36:53,3.002s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/PaymentDetails/EmailText""), ""dipak.das@mailinator.com"")",Chrome 73.0.3683.86,,2019-04-05 15:36:53,2019-04-05 15:36:53,0.163s,PASSED
+"scrollToElement(findTestObject(""TC03-MTA/SendEmail""), 5)",Chrome 73.0.3683.86,,2019-04-05 15:36:53,2019-04-05 15:36:53,0.030s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-05 15:36:53,2019-04-05 15:36:57,4.004s,PASSED
+"click(findTestObject(""TC03-MTA/SendEmail""))",Chrome 73.0.3683.86,,2019-04-05 15:36:57,2019-04-05 15:36:57,0.107s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:36:57,2019-04-05 15:37:02,5.007s,PASSED
+,,,,,,
+Test Cases/TC04-AccountMatching-MGA,Chrome 73.0.3683.86,This is Account Matching OF MGA,2019-04-05 15:37:02,2019-04-05 15:37:18,15.921s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:37:02,2019-04-05 15:37:05,3.001s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 73.0.3683.86,,2019-04-05 15:37:05,2019-04-05 15:37:05,0.051s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 73.0.3683.86,,2019-04-05 15:37:05,2019-04-05 15:37:05,0.066s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:37:05,2019-04-05 15:37:08,3.003s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 73.0.3683.86,,2019-04-05 15:37:08,2019-04-05 15:37:10,1.455s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:37:10,2019-04-05 15:37:15,5.005s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""MGA"", false)",Chrome 73.0.3683.86,,2019-04-05 15:37:15,2019-04-05 15:37:15,0.100s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:37:15,2019-04-05 15:37:18,3.001s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""NEW MGA"", false)",Chrome 73.0.3683.86,,2019-04-05 15:37:18,2019-04-05 15:37:18,0.088s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for create the Policy</description>
+   <name>TC02-CreatePolicy</name>
+   <tag>BuyProduct</tag>
+   <comment></comment>
+   <testCaseGuid>b5b13085-f5b9-43e8-8053-41affaf6ff0e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7464fb7-5c35-46bb-b277-bad18dfa810c</id>
+      <masked>false</masked>
+      <name>Get_Policy_No</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cancel'</defaultValue>
+      <description></description>
+      <id>4a160e9f-3ddb-45ec-a34a-1c92399ce4cb</id>
+      <masked>false</masked>
+      <name>var_Alert</name>
+   </variable>
+</TestCaseEntity>

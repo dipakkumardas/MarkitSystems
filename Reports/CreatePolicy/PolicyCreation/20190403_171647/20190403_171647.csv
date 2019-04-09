@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,,,2019-04-03 17:16:49,2019-04-03 17:16:51,2.533s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,,,2019-04-03 17:16:51,2019-04-03 17:16:51,0.184s,FAILED
+"openBrowser("""")",,,2019-04-03 17:16:51,2019-04-03 17:16:51,0.002s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",,,2019-04-03 17:16:51,2019-04-03 17:16:51,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",,,2019-04-03 17:16:51,2019-04-03 17:16:51,0.035s,FAILED
+,,,,,,
+Test Cases/TC02-CreatePolicy,,This test case is for create the Policy,2019-04-03 17:16:51,2019-04-03 17:16:51,0.281s,FAILED
+waitForJQueryLoad(10),,,2019-04-03 17:16:51,2019-04-03 17:16:51,0.019s,FAILED

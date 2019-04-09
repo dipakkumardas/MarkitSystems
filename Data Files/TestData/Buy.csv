@@ -1,0 +1,3 @@
+EntityName,Currency,BrokerName,IntroducerName,ProductName,Term,Type,Building_SumInsure,NoofRoom,Content_SumInsured
+Dipak,USD,New Broker,Select Introducer      ,BasicDemoProduct,Yearly,Flat,4000,3,5000
+Dipak,USD,New Broker,Select Introducer      ,BasicDemoProduct,Monthly,Duplex,4000,2,4000

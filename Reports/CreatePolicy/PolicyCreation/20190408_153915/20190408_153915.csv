@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-08 15:39:19,2019-04-08 15:41:11,1m - 51.961s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-08 15:39:34,2019-04-08 15:39:46,11.903s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 15:39:35,2019-04-08 15:39:35,0.003s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-08 15:39:35,2019-04-08 15:39:35,0.002s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-08 15:39:35,2019-04-08 15:39:35,0.467s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-08 15:39:35,2019-04-08 15:39:35,0.128s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-08 15:39:35,2019-04-08 15:39:39,4.022s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-08 15:39:39,2019-04-08 15:39:39,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-08 15:39:39,2019-04-08 15:39:46,6.943s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.86,,2019-04-08 15:39:46,2019-04-08 15:39:46,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.86,,2019-04-08 15:39:46,2019-04-08 15:39:46,0.002s,NOT_RUN
+,,,,,,
+Test Cases/TC02-CreatePolicy,Chrome 73.0.3683.86,This test case is for create the Policy,2019-04-08 15:39:46,2019-04-08 15:41:10,1m - 23.886s,ERROR
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.86,,2019-04-08 15:39:47,2019-04-08 15:39:47,0.002s,PASSED
+waitForJQueryLoad(10),Chrome 73.0.3683.86,,2019-04-08 15:39:47,2019-04-08 15:39:47,0.113s,PASSED
+"click(findTestObject(""TC-CreatePolicy/DashBoard/ClientSearchLink""))",Chrome 73.0.3683.86,,2019-04-08 15:39:47,2019-04-08 15:39:49,2.035s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), ""Dipak"")",Chrome 73.0.3683.86,,2019-04-08 15:39:49,2019-04-08 15:39:49,0.259s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 15:39:49,2019-04-08 15:39:54,5.005s,PASSED
+"sendKeys(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-08 15:39:54,2019-04-08 15:39:54,0.063s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-08 15:39:54,2019-04-08 15:39:58,4.003s,PASSED
+"waitForElementClickable(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""), 3)",Chrome 73.0.3683.86,,2019-04-08 15:39:58,2019-04-08 15:39:58,0.100s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""))",Chrome 73.0.3683.86,,2019-04-08 15:39:58,2019-04-08 15:40:03,4.479s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-08 15:40:03,2019-04-08 15:40:06,3.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/StartQuote""))",Chrome 73.0.3683.86,,2019-04-08 15:40:06,2019-04-08 15:40:07,1.725s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-08 15:40:07,2019-04-08 15:40:09,1.193s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectCurrency""), ""USD"", true)",Chrome 73.0.3683.86,,2019-04-08 15:40:09,2019-04-08 15:40:09,0.316s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectBroker""), ""New Broker"", true)",Chrome 73.0.3683.86,,2019-04-08 15:40:09,2019-04-08 15:40:10,0.767s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-08 15:40:10,2019-04-08 15:40:10,0.519s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectProduct""), ""BasicDemoProduct"", false)",Chrome 73.0.3683.86,,2019-04-08 15:40:10,2019-04-08 15:40:10,0.136s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-08 15:40:10,2019-04-08 15:40:11,0.531s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectPolicyTerm""), ""Yearly"", false)",Chrome 73.0.3683.86,,2019-04-08 15:40:11,2019-04-08 15:40:11,0.127s,PASSED
+waitForJQueryLoad(3),Chrome 73.0.3683.86,,2019-04-08 15:40:11,2019-04-08 15:40:12,0.528s,PASSED
+"selectOptionByValue(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectTimeZone""), ""343"", false)",Chrome 73.0.3683.86,,2019-04-08 15:40:12,2019-04-08 15:40:12,0.001s,NOT_RUN
+delay(3),Chrome 73.0.3683.86,,2019-04-08 15:40:12,2019-04-08 15:40:15,3.005s,PASSED
+"click(findTestObject(""TC-CreatePolicy/GeneralDetails/NextButton""))",Chrome 73.0.3683.86,,2019-04-08 15:40:15,2019-04-08 15:40:15,0.104s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 15:40:15,2019-04-08 15:40:20,5.002s,PASSED
+"if (var_Alert.equals(""Cancel""))",Chrome 73.0.3683.86,,2019-04-08 15:40:20,2019-04-08 15:40:37,17.649s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 15:40:37,2019-04-08 15:40:42,5.004s,PASSED
+"click(findTestObject(""TC-CreatePolicy/Premium/BindButton""))",Chrome 73.0.3683.86,,2019-04-08 15:40:42,2019-04-08 15:40:44,1.827s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 15:40:44,2019-04-08 15:40:49,5.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/PaymentMethods""))",Chrome 73.0.3683.86,,2019-04-08 15:40:49,2019-04-08 15:40:49,0.088s,PASSED
+waitForJQueryLoad(4),Chrome 73.0.3683.86,,2019-04-08 15:40:49,2019-04-08 15:40:49,0.027s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/PaymentDetails/SelectNoOfInstallment""), ""1"", false)",Chrome 73.0.3683.86,,2019-04-08 15:40:49,2019-04-08 15:40:49,0.076s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-08 15:40:49,2019-04-08 15:40:53,4.002s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/ConfirmPaymentType""))",Chrome 73.0.3683.86,,2019-04-08 15:40:53,2019-04-08 15:40:53,0.082s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-08 15:40:53,2019-04-08 15:40:57,4.001s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/PaymentDetails/EmailText""), ""dipak.das@mailinator.com"")",Chrome 73.0.3683.86,,2019-04-08 15:40:57,2019-04-08 15:40:58,0.313s,PASSED
+"scrollToElement(findTestObject(""TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule""), 5)",Chrome 73.0.3683.86,,2019-04-08 15:40:58,2019-04-08 15:40:58,0.052s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 15:40:58,2019-04-08 15:41:04,6.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/PaymentDetails/BindAndSendPolicySchedule""))",Chrome 73.0.3683.86,,2019-04-08 15:41:04,2019-04-08 15:41:04,0.112s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-08 15:41:04,2019-04-08 15:41:09,5.003s,PASSED
+"PolicyNo_Global = getText(findTestObject(""TC-CreatePolicy/Premium/PolicyNo""))",Chrome 73.0.3683.86,,2019-04-08 15:41:09,2019-04-08 15:41:09,0.076s,PASSED
+"Get_Policy_No = getText(findTestObject(""TC-CreatePolicy/Premium/PolicyNo""))",Chrome 73.0.3683.86,,2019-04-08 15:41:09,2019-04-08 15:41:09,0.001s,NOT_RUN
+"com.excel.helper.Excelhelper.writeTOExcelFile(""E:\MarkitCore\CoreApplication\Data Files\TestData\policy.xlsx"""", ""policy"", PolicyNo_Global, 1, 1)",Chrome 73.0.3683.86,,2019-04-08 15:41:09,2019-04-08 15:41:10,1.164s,ERROR

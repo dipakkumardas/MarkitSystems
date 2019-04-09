@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Firefox 56.0,,2019-04-05 14:57:32,2019-04-05 14:59:26,1m - 54.394s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Firefox 56.0,,2019-04-05 14:58:03,2019-04-05 14:58:17,13.251s,PASSED
+"openBrowser("""")",Firefox 56.0,,2019-04-05 14:58:04,2019-04-05 14:58:04,0.001s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Firefox 56.0,,2019-04-05 14:58:04,2019-04-05 14:58:04,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Firefox 56.0,,2019-04-05 14:58:04,2019-04-05 14:58:06,1.928s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Firefox 56.0,,2019-04-05 14:58:06,2019-04-05 14:58:06,0.713s,PASSED
+"delay(4, STOP_ON_FAILURE)",Firefox 56.0,,2019-04-05 14:58:06,2019-04-05 14:58:10,4.048s,PASSED
+maximizeWindow(),Firefox 56.0,,2019-04-05 14:58:10,2019-04-05 14:58:10,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Firefox 56.0,,2019-04-05 14:58:10,2019-04-05 14:58:17,6.374s,PASSED
+,,,,,,
+Test Cases/TC02-CreatePolicy,Firefox 56.0,This test case is for create the Policy,2019-04-05 14:58:17,2019-04-05 14:59:11,53.985s,FAILED
+waitForJQueryLoad(10),Firefox 56.0,,2019-04-05 14:58:17,2019-04-05 14:58:18,0.657s,PASSED
+"click(findTestObject(""TC-CreatePolicy/DashBoard/ClientSearchLink""))",Firefox 56.0,,2019-04-05 14:58:18,2019-04-05 14:58:18,0.288s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), ""Dipak"")",Firefox 56.0,,2019-04-05 14:58:18,2019-04-05 14:58:21,3.371s,PASSED
+delay(5),Firefox 56.0,,2019-04-05 14:58:21,2019-04-05 14:58:26,5.004s,PASSED
+"sendKeys(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), Keys.chord(ENTER))",Firefox 56.0,,2019-04-05 14:58:26,2019-04-05 14:58:27,0.131s,PASSED
+delay(4),Firefox 56.0,,2019-04-05 14:58:27,2019-04-05 14:58:31,4.004s,PASSED
+"waitForElementClickable(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""), 3)",Firefox 56.0,,2019-04-05 14:58:31,2019-04-05 14:58:31,0.094s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/ClientListAction""))",Firefox 56.0,,2019-04-05 14:58:31,2019-04-05 14:58:31,0.241s,PASSED
+delay(3),Firefox 56.0,,2019-04-05 14:58:31,2019-04-05 14:58:34,3.003s,PASSED
+"click(findTestObject(""TC-CreatePolicy/ClientListing/StartQuote""))",Firefox 56.0,,2019-04-05 14:58:34,2019-04-05 14:58:35,1.538s,PASSED
+waitForJQueryLoad(5),Firefox 56.0,,2019-04-05 14:58:35,2019-04-05 14:58:35,0.050s,PASSED
+"selectOptionByLabel(findTestObject(""TC-CreatePolicy/GeneralDetails/SelectCurrency""), ""USD"", true)",Firefox 56.0,,2019-04-05 14:58:35,2019-04-05 14:59:11,35.233s,FAILED
+,,,,,,
+Test Cases/TC03-MTA,Firefox 56.0,,2019-04-05 14:59:11,2019-04-05 14:59:26,15.424s,FAILED
+waitForJQueryLoad(5),Firefox 56.0,,2019-04-05 14:59:11,2019-04-05 14:59:11,0.048s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Firefox 56.0,,2019-04-05 14:59:11,2019-04-05 14:59:11,0.209s,PASSED
+waitForJQueryLoad(5),Firefox 56.0,,2019-04-05 14:59:11,2019-04-05 14:59:13,1.708s,PASSED
+"setText(findTestObject(""TC03-MTA/SearchFields""), PolicyNo_Global)",Firefox 56.0,,2019-04-05 14:59:13,2019-04-05 14:59:14,1.283s,PASSED
+"delay(4, STOP_ON_FAILURE)",Firefox 56.0,,2019-04-05 14:59:14,2019-04-05 14:59:18,4.002s,PASSED
+"sendKeys(findTestObject(""TC03-MTA/SearchFields""), Keys.chord(ENTER))",Firefox 56.0,,2019-04-05 14:59:18,2019-04-05 14:59:18,0.102s,PASSED
+delay(5),Firefox 56.0,,2019-04-05 14:59:18,2019-04-05 14:59:23,5.003s,PASSED
+"click(findTestObject(""TC03-MTA/ClickEdit""))",Firefox 56.0,,2019-04-05 14:59:23,2019-04-05 14:59:23,0.205s,PASSED
+delay(2),Firefox 56.0,,2019-04-05 14:59:23,2019-04-05 14:59:25,2.001s,PASSED
+"click(findTestObject(""TC03-MTA/MTA TAB""))",Firefox 56.0,,2019-04-05 14:59:25,2019-04-05 14:59:26,0.671s,FAILED

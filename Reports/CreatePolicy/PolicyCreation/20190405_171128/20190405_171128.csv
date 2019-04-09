@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-05 17:11:30,2019-04-05 17:11:49,19.266s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-05 17:11:37,2019-04-05 17:11:48,11.054s,ERROR
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-05 17:11:37,2019-04-05 17:11:37,0.004s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-05 17:11:37,2019-04-05 17:11:37,0.004s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-05 17:11:37,2019-04-05 17:11:38,0.220s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-05 17:11:38,2019-04-05 17:11:38,0.133s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-05 17:11:38,2019-04-05 17:11:42,4.021s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-05 17:11:42,2019-04-05 17:11:42,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-05 17:11:42,2019-04-05 17:11:48,6.423s,PASSED
+println(Dipak),Chrome 73.0.3683.86,,2019-04-05 17:11:48,2019-04-05 17:11:48,0.035s,ERROR

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-MTA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0087cb68-221b-4a6c-98a8-8d9475e6337c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>146e22dd-73f8-4e19-b740-99abba2196a2</id>
+      <masked>false</masked>
+      <name>APRPValue</name>
+   </variable>
+</TestCaseEntity>

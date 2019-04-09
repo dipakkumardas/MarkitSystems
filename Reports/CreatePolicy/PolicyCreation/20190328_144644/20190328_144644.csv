@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-03-28 14:46:46,2019-03-28 14:47:12,26.137s,ERROR
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-03-28 14:46:46,2019-03-28 14:47:06,19.741s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-28 14:46:46,2019-03-28 14:46:48,1.907s,PASSED
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-03-28 14:46:48,2019-03-28 14:46:54,6.122s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-03-28 14:46:54,2019-03-28 14:46:54,0.139s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-03-28 14:46:54,2019-03-28 14:46:54,0.099s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-28 14:46:54,2019-03-28 14:46:58,4.024s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-28 14:46:58,2019-03-28 14:46:59,0.135s,PASSED
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-03-28 14:46:59,2019-03-28 14:47:06,7.017s,PASSED
+,,,,,,
+Test Cases/TC02-CreatePolicy,Chrome 73.0.3683.86,This test case is for create the Policy,2019-03-28 14:47:06,2019-03-28 14:47:11,5.563s,ERROR
+waitForJQueryLoad(10),Chrome 73.0.3683.86,,2019-03-28 14:47:06,2019-03-28 14:47:06,0.556s,PASSED
+"click(findTestObject(""TC-CreatePolicy/DashBoard/ClientSearchLink""))",Chrome 73.0.3683.86,,2019-03-28 14:47:06,2019-03-28 14:47:08,1.536s,PASSED
+"setText(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), ""Dipak"")",Chrome 73.0.3683.86,,2019-03-28 14:47:08,2019-03-28 14:47:08,0.233s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-28 14:47:08,2019-03-28 14:47:11,3.005s,PASSED
+"sendKeys(findTestObject(""TC-CreatePolicy/ClientListing/ClientName""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-03-28 14:47:11,2019-03-28 14:47:11,0.019s,ERROR
