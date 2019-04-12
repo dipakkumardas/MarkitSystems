@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Documents</name>
+   <tag></tag>
+   <elementGuidId>0331ba16-b4fa-47b7-a15c-2a5690e8c980</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='nav-main']//child::a[contains(text(),'Documents')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='nav-main']//child::a[contains(text(),'Documents')]</value>
+   </webElementProperties>
+</WebElementEntity>

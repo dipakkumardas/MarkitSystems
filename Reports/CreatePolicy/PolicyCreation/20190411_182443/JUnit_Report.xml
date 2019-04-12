@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="160" tests="1" failures="2" errors="0">
+   <testsuite name="PolicyCreation" tests="1" failures="2" errors="0" time="160" timestamp="2019-04-11 18:25:27" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443\\execution0.log"/>
+         <property name="attachments" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443\\1554987426569.png, E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443\\1554987486965.png"/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="8b953153582fd594bea26d473bdb7e5d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-11 18:25:50 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-11 18:25:51 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-11 18:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-11 18:25:51 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-11 18:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-11 18:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-11 18:25:51 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-11 18:25:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-11 18:25:51 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-11 18:25:51 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-11 18:25:55 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-11 18:25:55 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-11 18:25:55 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-11 18:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-11 18:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-11 18:26:03 - [TEST_STEP][NOT_RUN] - log = new com.kms.katalon.core.logging.KeywordLogger(): NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-11 18:26:03 - [MESSAGE][NOT_RUN] - NOT_RUN: log = new com.kms.katalon.core.logging.KeywordLogger()
+
+2019-04-11 18:26:03 - [TEST_STEP][NOT_RUN] - log.logInfo(“Dipak”): NOT_RUN: log.logInfo(“Dipak”)
+
+2019-04-11 18:26:03 - [MESSAGE][NOT_RUN] - NOT_RUN: log.logInfo(“Dipak”)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-AccountMatching-MGA" classname="Test Cases/TC04-AccountMatching-MGA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-11 18:26:03 - [TEST_CASE][FAILED] - Test Cases/TC04-AccountMatching-MGA: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+
+
+2019-04-11 18:26:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 18:26:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 18:26:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC04-AccountMatching-MGA/AccountManagement"), 5): Scroll to object 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' successfully
+
+2019-04-11 18:26:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' successfully
+
+2019-04-11 18:26:07 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/AccountManagement")): Object: 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' is clicked on
+
+2019-04-11 18:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' is clicked on
+
+2019-04-11 18:26:07 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-04-11 18:26:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-04-11 18:26:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TC04-AccountMatching-MGA/AccountMatchingLink"), 4): Object 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is visible
+
+2019-04-11 18:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is visible
+
+2019-04-11 18:26:07 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/AccountMatchingLink")): Object: 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is clicked on
+
+2019-04-11 18:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is clicked on
+
+2019-04-11 18:26:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:26:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:26:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/EntityType"), "MGA", false): All options with label 'MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/EntityType' 
+
+2019-04-11 18:26:14 - [MESSAGE][PASSED] - All options with label 'MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/EntityType' 
+
+2019-04-11 18:26:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 18:26:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 18:26:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/Entity"), "NEW MGA", false): All options with label 'NEW MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/Entity' 
+
+2019-04-11 18:26:17 - [MESSAGE][PASSED] - All options with label 'NEW MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/Entity' 
+
+2019-04-11 18:26:17 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/ClickGoButton")): Object: 'Object Repository/TC04-AccountMatching-MGA/ClickGoButton' is clicked on
+
+2019-04-11 18:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/ClickGoButton' is clicked on
+
+2019-04-11 18:26:19 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-11 18:26:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-11 18:26:20 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/SelectAccount"), "ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD", false): All options with label 'ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD' are selected in object 'Object Repository/TC04-AccountMatching-MGA/SelectAccount' 
+
+2019-04-11 18:26:20 - [MESSAGE][PASSED] - All options with label 'ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD' are selected in object 'Object Repository/TC04-AccountMatching-MGA/SelectAccount' 
+
+2019-04-11 18:26:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:26:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:26:25 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox"), MTA_Policy_No): Text 'DASD/POLICY/002815' is set on object 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:26:26 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002815' is set on object 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:26:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:26:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:26:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:26:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:26:31 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/CheckBox")): Object: 'Object Repository/TC04-AccountMatching-MGA/CheckBox' is clicked on
+
+2019-04-11 18:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/CheckBox' is clicked on
+
+2019-04-11 18:26:31 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-11 18:26:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-11 18:26:35 - [TEST_STEP][FAILED] - MGA_Comission_Amount = getText(findTestObject("TC04-AccountMatching-MGA/MGA_Amount")): MGA_Comission_Amount = getText(findTestObject("TC04-AccountMatching-MGA/MGA_Amount")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+
+
+2019-04-11 18:27:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[text()="+MTA_Policy_No+"]//following-sibling::td/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-11 18:27:07 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443\\1554987426569.png]]
+
+2019-04-11 18:27:07 - [MESSAGE][FAILED] - MGA_Comission_Amount = getText(findTestObject("TC04-AccountMatching-MGA/MGA_Amount")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-11 18:26:03 - [TEST_CASE][FAILED] - Test Cases/TC04-AccountMatching-MGA: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-AccountMatching-MGA" classname="Test Cases/TC04-AccountMatching-MGA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-11 18:27:07 - [TEST_CASE][FAILED] - Test Cases/TC04-AccountMatching-MGA: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+
+
+2019-04-11 18:27:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 18:27:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 18:27:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("TC04-AccountMatching-MGA/AccountManagement"), 5): Scroll to object 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' successfully
+
+2019-04-11 18:27:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' successfully
+
+2019-04-11 18:27:10 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/AccountManagement")): Object: 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' is clicked on
+
+2019-04-11 18:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/AccountManagement' is clicked on
+
+2019-04-11 18:27:10 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-04-11 18:27:10 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-04-11 18:27:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("TC04-AccountMatching-MGA/AccountMatchingLink"), 4): Object 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is visible
+
+2019-04-11 18:27:10 - [MESSAGE][PASSED] - Object 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is visible
+
+2019-04-11 18:27:10 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/AccountMatchingLink")): Object: 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is clicked on
+
+2019-04-11 18:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/AccountMatchingLink' is clicked on
+
+2019-04-11 18:27:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:27:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:27:16 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/EntityType"), "MGA", false): All options with label 'MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/EntityType' 
+
+2019-04-11 18:27:16 - [MESSAGE][PASSED] - All options with label 'MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/EntityType' 
+
+2019-04-11 18:27:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 18:27:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 18:27:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/Entity"), "NEW MGA", false): All options with label 'NEW MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/Entity' 
+
+2019-04-11 18:27:19 - [MESSAGE][PASSED] - All options with label 'NEW MGA' are selected in object 'Object Repository/TC04-AccountMatching-MGA/Entity' 
+
+2019-04-11 18:27:19 - [TEST_STEP][PASSED] - click(findTestObject("TC04-AccountMatching-MGA/ClickGoButton")): Object: 'Object Repository/TC04-AccountMatching-MGA/ClickGoButton' is clicked on
+
+2019-04-11 18:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04-AccountMatching-MGA/ClickGoButton' is clicked on
+
+2019-04-11 18:27:24 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-11 18:27:25 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-11 18:27:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC04-AccountMatching-MGA/SelectAccount"), "ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD", false): All options with label 'ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD' are selected in object 'Object Repository/TC04-AccountMatching-MGA/SelectAccount' 
+
+2019-04-11 18:27:25 - [MESSAGE][PASSED] - All options with label 'ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD' are selected in object 'Object Repository/TC04-AccountMatching-MGA/SelectAccount' 
+
+2019-04-11 18:27:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:27:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:27:30 - [TEST_STEP][PASSED] - setText(findTestObject("TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox"), MTA_Policy_No): Text 'DASD/POLICY/002821' is set on object 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:27:31 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002821' is set on object 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:27:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:27:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC04-AccountMatching-MGA/Acc_Matching_PolicyNo_TextBox'
+
+2019-04-11 18:27:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 18:27:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 18:27:36 - [TEST_STEP][FAILED] - click(findTestObject("TC04-AccountMatching-MGA/CheckBox")): click(findTestObject("TC04-AccountMatching-MGA/CheckBox")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)
+
+
+2019-04-11 18:28:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table//input[@class='TrChkClass']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-11 18:28:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+[[ATTACHMENT|E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190411_182443\\1554987486965.png]]
+
+2019-04-11 18:28:07 - [MESSAGE][FAILED] - click(findTestObject("TC04-AccountMatching-MGA/CheckBox")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-11 18:27:07 - [TEST_CASE][FAILED] - Test Cases/TC04-AccountMatching-MGA: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/TC04-AccountMatching-MGA/CheckBox'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 18:25:27 - [TEST_SUITE][FAILED] - PolicyCreation: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-11 18:25:27 - [TEST_SUITE][FAILED] - PolicyCreation: Test Cases/TC04-AccountMatching-MGA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/TC04-AccountMatching-MGA/MGA_Amount'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$getText$9.call(Unknown Source)
+	at TC04-AccountMatching-MGA.run(TC04-AccountMatching-MGA:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554987283501.run(TempTestSuite1554987283501.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

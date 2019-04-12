@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="97" tests="2" failures="0" errors="0">
+   <testsuite name="PolicyCreation" tests="2" failures="0" errors="0" time="97" timestamp="2019-04-04 19:44:29" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190404_194427"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190404_194427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="26948db08ef298692dff9ad8593d7722"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-04 19:44:45 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-04 19:44:45 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-04 19:44:45 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-04 19:44:45 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-04 19:44:45 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-04 19:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-04 19:44:45 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-04 19:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-04 19:44:45 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-04 19:44:45 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-04 19:44:49 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-04 19:44:49 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-04 19:44:49 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-04 19:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-04 19:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-MTA" classname="Test Cases/TC03-MTA" status="PASSED">
+         <system-out><![CDATA[2019-04-04 19:45:07 - [TEST_CASE][PASSED] - Test Cases/TC03-MTA: Test Cases/TC03-MTA
+
+2019-04-04 19:45:07 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 19:45:08 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 19:45:08 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/PolicyRecord")): Object: 'Object Repository/TC03-MTA/PolicyRecord' is clicked on
+
+2019-04-04 19:45:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/PolicyRecord' is clicked on
+
+2019-04-04 19:45:09 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 19:45:11 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 19:45:11 - [TEST_STEP][PASSED] - setText(findTestObject("TC03-MTA/SearchFields"), "DASD/POLICY/002607"): Text 'DASD/POLICY/002607' is set on object 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 19:45:11 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002607' is set on object 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 19:45:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC03-MTA/SearchFields"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 19:45:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 19:45:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 19:45:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 19:45:16 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/ClickEdit")): Object: 'Object Repository/TC03-MTA/ClickEdit' is clicked on
+
+2019-04-04 19:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/ClickEdit' is clicked on
+
+2019-04-04 19:45:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 19:45:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 19:45:21 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/MTA TAB")): Object: 'Object Repository/TC03-MTA/MTA TAB' is clicked on
+
+2019-04-04 19:45:23 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/MTA TAB' is clicked on
+
+2019-04-04 19:45:23 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 19:45:24 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 19:45:24 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/GO BUTTON")): Object: 'Object Repository/TC03-MTA/GO BUTTON' is clicked on
+
+2019-04-04 19:45:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/GO BUTTON' is clicked on
+
+2019-04-04 19:45:31 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 19:45:32 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 19:45:32 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC03-MTA/MTA Resons Type"), "Reason Description MTA", false): All options with label 'Reason Description MTA' are selected in object 'Object Repository/TC03-MTA/MTA Resons Type' 
+
+2019-04-04 19:45:32 - [MESSAGE][PASSED] - All options with label 'Reason Description MTA' are selected in object 'Object Repository/TC03-MTA/MTA Resons Type' 
+
+2019-04-04 19:45:32 - [TEST_STEP][PASSED] - setText(findTestObject("TC03-MTA/MTAReasonTextArea"), "Only For Testing Purpose."): Text 'Only For Testing Purpose.' is set on object 'Object Repository/TC03-MTA/MTAReasonTextArea'
+
+2019-04-04 19:45:32 - [MESSAGE][PASSED] - Text 'Only For Testing Purpose.' is set on object 'Object Repository/TC03-MTA/MTAReasonTextArea'
+
+2019-04-04 19:45:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 19:45:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 19:45:37 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/MTAResonsSaveButton")): Object: 'Object Repository/TC03-MTA/MTAResonsSaveButton' is clicked on
+
+2019-04-04 19:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/MTAResonsSaveButton' is clicked on
+
+2019-04-04 19:45:39 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-04 19:45:43 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-04 19:45:43 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/EditRiskItemListing")): Object: 'Object Repository/TC03-MTA/EditRiskItemListing' is clicked on
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/EditRiskItemListing' is clicked on
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC-CreatePolicy/RiskDetails/Type"), "Duplex", false): All options with label 'Duplex' are selected in object 'Object Repository/TC-CreatePolicy/RiskDetails/Type' 
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - All options with label 'Duplex' are selected in object 'Object Repository/TC-CreatePolicy/RiskDetails/Type' 
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - clearText(findTestObject("TC-CreatePolicy/RiskDetails/SumInsurreTextBox")): Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox' is cleared
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox' is cleared
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/SumInsurreTextBox"), "3000"): Text '3000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox'
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text '3000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/SumInsurreTextBox'
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - clearText(findTestObject("TC-CreatePolicy/RiskDetails/RoomNo")): Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo' is cleared
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo' is cleared
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/RoomNo"), "2"): Text '2' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo'
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/RoomNo'
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - clearText(findTestObject("TC-CreatePolicy/RiskDetails/ContentSumInsure")): Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure' is cleared
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure' is cleared
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/RiskDetails/ContentSumInsure"), "2000"): Text '2000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure'
+
+2019-04-04 19:45:46 - [MESSAGE][PASSED] - Text '2000' is set on object 'Object Repository/TC-CreatePolicy/RiskDetails/ContentSumInsure'
+
+2019-04-04 19:45:46 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/MTASaveButton")): Object: 'Object Repository/TC03-MTA/MTASaveButton' is clicked on
+
+2019-04-04 19:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/MTASaveButton' is clicked on
+
+2019-04-04 19:45:55 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 19:45:56 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 19:45:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 19:46:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 19:46:01 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/EmailQuoteButtonClick")): Object: 'Object Repository/TC03-MTA/EmailQuoteButtonClick' is clicked on
+
+2019-04-04 19:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/EmailQuoteButtonClick' is clicked on
+
+2019-04-04 19:46:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 19:46:06 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-04 19:44:29 - [TEST_SUITE][PASSED] - PolicyCreation: Test Cases/TC03-MTA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

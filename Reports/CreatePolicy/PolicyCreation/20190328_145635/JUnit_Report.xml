@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="23" tests="1" failures="0" errors="1">
+   <testsuite name="PolicyCreation" tests="1" failures="0" errors="1" time="23" timestamp="2019-03-28 14:56:36" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190328_145635"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190328_145635\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="b5e1c4e3896de774a78da034ee2cbec9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-03-28 14:56:36 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-03-28 14:56:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-28 14:56:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-28 14:56:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-28 14:56:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-28 14:56:39 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): Navigate to 'https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display' successfully
+
+2019-03-28 14:56:44 - [MESSAGE][PASSED] - Navigate to 'https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display' successfully
+
+2019-03-28 14:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-03-28 14:56:44 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-03-28 14:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-03-28 14:56:44 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-03-28 14:56:44 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-03-28 14:56:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-28 14:56:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-28 14:56:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-28 14:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-03-28 14:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-CreatePolicy" classname="Test Cases/TC02-CreatePolicy" status="ERROR">
+         <error type="ERROR" message="Test Cases/TC02-CreatePolicy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-28 14:56:54 - [TEST_CASE][ERROR] - Test Cases/TC02-CreatePolicy: Test Cases/TC02-CreatePolicy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)
+
+
+2019-03-28 14:56:54 - [TEST_STEP][PASSED] - waitForJQueryLoad(10): jQuery is ready.
+
+2019-03-28 14:56:54 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-28 14:56:54 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/DashBoard/ClientSearchLink")): Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-03-28 14:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-03-28 14:56:56 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), "Dipak"): Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 14:56:56 - [MESSAGE][PASSED] - Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 14:56:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 14:56:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 14:56:59 - [TEST_STEP][ERROR] - sendKeys(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), Keys.chord(ENTER)): sendKeys(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)
+
+
+2019-03-28 14:56:59 - [MESSAGE][ERROR] - sendKeys(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), Keys.chord(ENTER)) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-03-28 14:56:54 - [TEST_CASE][ERROR] - Test Cases/TC02-CreatePolicy: Test Cases/TC02-CreatePolicy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-28 14:56:36 - [TEST_SUITE][ERROR] - PolicyCreation: Test Cases/TC02-CreatePolicy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-28 14:56:36 - [TEST_SUITE][ERROR] - PolicyCreation: Test Cases/TC02-CreatePolicy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: Keys for class: Script1553757084108
+	at TC02-CreatePolicy.run(TC02-CreatePolicy:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1553765195158.run(TempTestSuite1553765195158.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

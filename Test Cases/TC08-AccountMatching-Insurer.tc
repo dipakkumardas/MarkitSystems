@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is Account Matching Broker</description>
+   <name>TC08-AccountMatching-Insurer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1b5bdf86-822c-440c-a097-2492aad46b29</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c444b3f-d0a5-404e-8ee7-275bdacb4cf9</id>
+      <masked>false</masked>
+      <name>MTA_Policy_No</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d93b673-7709-4a73-b87a-02d76ead2e0d</id>
+      <masked>false</masked>
+      <name>Insurer_Comission_Amount</name>
+   </variable>
+</TestCaseEntity>

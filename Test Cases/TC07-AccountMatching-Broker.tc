@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Account matching of Broker Statement</description>
+   <name>TC07-AccountMatching-Broker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>010feff5-6563-4a43-9064-cc4c97aab3f0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64c58571-67e7-437e-b14d-21496d6750fc</id>
+      <masked>false</masked>
+      <name>MTA_Policy_No</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43eee103-f51c-49b7-a16d-fc9354890f81</id>
+      <masked>false</masked>
+      <name>BROKER_Comission_Amount</name>
+   </variable>
+</TestCaseEntity>

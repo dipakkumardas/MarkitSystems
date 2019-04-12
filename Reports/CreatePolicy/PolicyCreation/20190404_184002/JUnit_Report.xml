@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="51" tests="2" failures="0" errors="0">
+   <testsuite name="PolicyCreation" tests="2" failures="0" errors="0" time="51" timestamp="2019-04-04 18:40:07" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190404_184002"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190404_184002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="ef5840b023da240c22735053bdc4767d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-04-04 18:40:17 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-04-04 18:40:17 - [TEST_STEP][NOT_RUN] - openBrowser(""): NOT_RUN: openBrowser("")
+
+2019-04-04 18:40:17 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("")
+
+2019-04-04 18:40:17 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-04 18:40:17 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display")
+
+2019-04-04 18:40:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-04 18:40:17 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-04-04 18:40:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-04 18:40:17 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-04-04 18:40:17 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-04-04 18:40:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-04 18:40:21 - [TEST_STEP][NOT_RUN] - maximizeWindow(): NOT_RUN: maximizeWindow()
+
+2019-04-04 18:40:21 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow()
+
+2019-04-04 18:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-04-04 18:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-MTA" classname="Test Cases/TC03-MTA" status="PASSED">
+         <system-out><![CDATA[2019-04-04 18:40:28 - [TEST_CASE][PASSED] - Test Cases/TC03-MTA: Test Cases/TC03-MTA
+
+2019-04-04 18:40:28 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 18:40:29 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 18:40:29 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/PolicyRecord")): Object: 'Object Repository/TC03-MTA/PolicyRecord' is clicked on
+
+2019-04-04 18:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/PolicyRecord' is clicked on
+
+2019-04-04 18:40:31 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 18:40:33 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 18:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("TC03-MTA/SearchFields"), "DASD/POLICY/002607"): Text 'DASD/POLICY/002607' is set on object 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 18:40:33 - [MESSAGE][PASSED] - Text 'DASD/POLICY/002607' is set on object 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 18:40:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC03-MTA/SearchFields"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 18:40:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC03-MTA/SearchFields'
+
+2019-04-04 18:40:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:40:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:40:38 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/ClickEdit")): Object: 'Object Repository/TC03-MTA/ClickEdit' is clicked on
+
+2019-04-04 18:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/ClickEdit' is clicked on
+
+2019-04-04 18:40:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:40:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:40:42 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/MTA TAB")): Object: 'Object Repository/TC03-MTA/MTA TAB' is clicked on
+
+2019-04-04 18:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/MTA TAB' is clicked on
+
+2019-04-04 18:40:43 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 18:40:43 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 18:40:43 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/GO BUTTON")): Object: 'Object Repository/TC03-MTA/GO BUTTON' is clicked on
+
+2019-04-04 18:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/GO BUTTON' is clicked on
+
+2019-04-04 18:40:49 - [TEST_STEP][PASSED] - waitForJQueryLoad(5): jQuery is ready.
+
+2019-04-04 18:40:50 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-04-04 18:40:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("TC03-MTA/MTA Resons Type"), "Reason Description MTA", false): All options with label 'Reason Description MTA' are selected in object 'Object Repository/TC03-MTA/MTA Resons Type' 
+
+2019-04-04 18:40:50 - [MESSAGE][PASSED] - All options with label 'Reason Description MTA' are selected in object 'Object Repository/TC03-MTA/MTA Resons Type' 
+
+2019-04-04 18:40:50 - [TEST_STEP][PASSED] - setText(findTestObject("TC03-MTA/MTAReasonTextArea"), "Only For Testing Purpose."): Text 'Only For Testing Purpose.' is set on object 'Object Repository/TC03-MTA/MTAReasonTextArea'
+
+2019-04-04 18:40:50 - [MESSAGE][PASSED] - Text 'Only For Testing Purpose.' is set on object 'Object Repository/TC03-MTA/MTAReasonTextArea'
+
+2019-04-04 18:40:50 - [TEST_STEP][PASSED] - click(findTestObject("TC03-MTA/MTAResonsSaveButton")): Object: 'Object Repository/TC03-MTA/MTAResonsSaveButton' is clicked on
+
+2019-04-04 18:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03-MTA/MTAResonsSaveButton' is clicked on
+
+2019-04-04 18:40:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:40:57 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-04 18:40:07 - [TEST_SUITE][PASSED] - PolicyCreation: Test Cases/TC03-MTA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

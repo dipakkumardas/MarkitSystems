@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09-AccountSmmary</name>
+   <tag>CreatePolicy</tag>
+   <comment></comment>
+   <testCaseGuid>abf9a143-7380-407c-be52-0256cc123101</testCaseGuid>
+</TestCaseEntity>

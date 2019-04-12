@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-05 15:47:55,2019-04-05 15:48:42,46.970s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-05 15:48:04,2019-04-05 15:48:16,11.523s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-05 15:48:04,2019-04-05 15:48:04,0.002s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-05 15:48:04,2019-04-05 15:48:04,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-05 15:48:04,2019-04-05 15:48:05,0.210s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-05 15:48:05,2019-04-05 15:48:05,0.145s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-05 15:48:05,2019-04-05 15:48:09,4.026s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-05 15:48:09,2019-04-05 15:48:09,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-05 15:48:09,2019-04-05 15:48:16,6.964s,PASSED
+,,,,,,
+Test Cases/TC04-AccountMatching-MGA,Chrome 73.0.3683.86,This is Account Matching OF MGA,2019-04-05 15:48:16,2019-04-05 15:48:42,25.700s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:48:16,2019-04-05 15:48:19,3.005s,PASSED
+"scrollToElement(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""), 5)",Chrome 73.0.3683.86,,2019-04-05 15:48:19,2019-04-05 15:48:19,0.057s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountManagement""))",Chrome 73.0.3683.86,,2019-04-05 15:48:19,2019-04-05 15:48:19,0.063s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:48:19,2019-04-05 15:48:22,3.003s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/AccountMatchingLink""))",Chrome 73.0.3683.86,,2019-04-05 15:48:22,2019-04-05 15:48:24,2.347s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:48:24,2019-04-05 15:48:29,5.004s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/EntityType""), ""MGA"", false)",Chrome 73.0.3683.86,,2019-04-05 15:48:29,2019-04-05 15:48:30,0.116s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-05 15:48:30,2019-04-05 15:48:33,3.003s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/Entity""), ""NEW MGA"", false)",Chrome 73.0.3683.86,,2019-04-05 15:48:33,2019-04-05 15:48:33,0.095s,PASSED
+"click(findTestObject(""TC04-AccountMatching-MGA/ClickGoButton""))",Chrome 73.0.3683.86,,2019-04-05 15:48:33,2019-04-05 15:48:35,2.753s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-05 15:48:35,2019-04-05 15:48:36,0.989s,PASSED
+"selectOptionByLabel(findTestObject(""TC04-AccountMatching-MGA/SelectAccount""), ""ComissionOnly -- Allocated -- NEW MGA CommAccount -- USD"", false)",Chrome 73.0.3683.86,,2019-04-05 15:48:36,2019-04-05 15:48:37,0.091s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-05 15:48:37,2019-04-05 15:48:42,5.002s,PASSED

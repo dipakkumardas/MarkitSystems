@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PolicyCreation" time="40" tests="2" failures="0" errors="0">
+   <testsuite name="PolicyCreation" tests="2" failures="0" errors="0" time="40" timestamp="2019-03-28 15:08:47" hostname="dipak - DIPAKDAS-PC.indusnettechnologies.com" id="Test Suites/CreatePolicy/PolicyCreation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190328_150845"/>
+         <property name="logFiles" value="E:\\MarkitCore\\CoreApplication\\Reports\\CreatePolicy\\PolicyCreation\\20190328_150845\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dipak - DIPAKDAS-PC.indusnettechnologies.com"/>
+         <property name="os" value="Windows 7 32bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.0.12.237"/>
+         <property name="sessionId" value="8f7a6b55fad15dd81323b8e6716b761e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/TC01-LoginApplication" classname="Test Cases/TC01-LoginApplication" status="PASSED">
+         <system-out><![CDATA[2019-03-28 15:08:47 - [TEST_CASE][PASSED] - Test Cases/TC01-LoginApplication: Test Cases/TC01-LoginApplication
+
+2019-03-28 15:08:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-28 15:08:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-28 15:08:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-28 15:08:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-28 15:08:50 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"): Navigate to 'https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display' successfully
+
+2019-03-28 15:08:54 - [MESSAGE][PASSED] - Navigate to 'https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display' successfully
+
+2019-03-28 15:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username"), "dDasTester"): Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-03-28 15:08:54 - [MESSAGE][PASSED] - Text 'dDasTester' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username'
+
+2019-03-28 15:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password"), "Czybm6R*"): Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-03-28 15:08:54 - [MESSAGE][PASSED] - Text 'Czybm6R*' is set on object 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password'
+
+2019-03-28 15:08:54 - [TEST_STEP][PASSED] - delay(4, STOP_ON_FAILURE): Delayed 4 second(s)
+
+2019-03-28 15:08:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-28 15:08:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-28 15:08:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-28 15:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login")): Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on
+
+2019-03-28 15:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-CreatePolicy" classname="Test Cases/TC02-CreatePolicy" status="PASSED">
+         <system-out><![CDATA[2019-03-28 15:09:04 - [TEST_CASE][PASSED] - Test Cases/TC02-CreatePolicy: Test Cases/TC02-CreatePolicy
+
+2019-03-28 15:09:04 - [TEST_STEP][PASSED] - waitForJQueryLoad(10): jQuery is ready.
+
+2019-03-28 15:09:05 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-03-28 15:09:05 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/DashBoard/ClientSearchLink")): Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-03-28 15:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/DashBoard/ClientSearchLink' is clicked on
+
+2019-03-28 15:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), "Dipak"): Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 15:09:07 - [MESSAGE][PASSED] - Text 'Dipak' is set on object 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 15:09:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 15:09:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 15:09:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("TC-CreatePolicy/ClientListing/ClientName"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 15:09:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientName'
+
+2019-03-28 15:09:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-03-28 15:09:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-28 15:09:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("TC-CreatePolicy/ClientListing/ClientListAction"), 3): Object 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clickable
+
+2019-03-28 15:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clickable
+
+2019-03-28 15:09:14 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/ClientListing/ClientListAction")): Object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clicked on
+
+2019-03-28 15:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/ClientListing/ClientListAction' is clicked on
+
+2019-03-28 15:09:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-28 15:09:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-28 15:09:18 - [TEST_STEP][PASSED] - click(findTestObject("TC-CreatePolicy/ClientListing/StartQuote")): Object: 'Object Repository/TC-CreatePolicy/ClientListing/StartQuote' is clicked on
+
+2019-03-28 15:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/TC-CreatePolicy/ClientListing/StartQuote' is clicked on
+
+2019-03-28 15:09:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-28 15:09:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("null"), "1", true): NOT_RUN: selectOptionByValue(findTestObject("null"), "1", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("null"), "1", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("null"), "4818", true): NOT_RUN: selectOptionByValue(findTestObject("null"), "4818", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("null"), "4818", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("null"), "89", true): NOT_RUN: selectOptionByValue(findTestObject("null"), "89", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("null"), "89", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("null"), "338", true): NOT_RUN: selectOptionByValue(findTestObject("null"), "338", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("null"), "338", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("null"), "3", true): NOT_RUN: selectOptionByValue(findTestObject("null"), "3", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("null"), "3", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("null")): NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("null")): NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("null")): NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("null"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Page_Markit core new  Risk details/select_Select                                                                                                                    Flat                                                                                       "), "1", true): NOT_RUN: selectOptionByValue(findTestObject("Page_Markit core new  Risk details/select_Select                                                                                                                    Flat                                                                                       "), "1", true)
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Page_Markit core new  Risk details/select_Select                                                                                                                    Flat                                                                                       "), "1", true)
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Page_Markit core new  Risk details/input__Group_Question235_11179_429_0"), "4"): NOT_RUN: setText(findTestObject("Page_Markit core new  Risk details/input__Group_Question235_11179_429_0"), "4")
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Page_Markit core new  Risk details/input__Group_Question235_11179_429_0"), "4")
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Markit core new  Risk details/input__form_submit")): NOT_RUN: click(findTestObject("Page_Markit core new  Risk details/input__form_submit"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Markit core new  Risk details/input__form_submit"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Markit core new  Premium details/a_Bind")): NOT_RUN: click(findTestObject("Page_Markit core new  Premium details/a_Bind"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Markit core new  Premium details/a_Bind"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Markit core new  Payment Details/input_Cash_transType")): NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_Cash_transType"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_Cash_transType"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Markit core new  Payment Details/input_ Please enter bank details._paymentBind")): NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_ Please enter bank details._paymentBind"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_ Please enter bank details._paymentBind"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Markit core new  Payment Details/input_Document_sendMail")): NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_Document_sendMail"))
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Markit core new  Payment Details/input_Document_sendMail"))
+
+2019-03-28 15:09:26 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-03-28 15:09:26 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-28 15:08:47 - [TEST_SUITE][PASSED] - PolicyCreation: Test Cases/TC02-CreatePolicy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

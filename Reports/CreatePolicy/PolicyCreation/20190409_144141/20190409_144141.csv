@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-09 14:41:46,2019-04-09 14:42:41,55.485s,FAILED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-09 14:42:02,2019-04-09 14:42:16,13.204s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-09 14:42:03,2019-04-09 14:42:03,0.002s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-09 14:42:03,2019-04-09 14:42:03,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-09 14:42:03,2019-04-09 14:42:04,1.064s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-09 14:42:04,2019-04-09 14:42:04,0.160s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 14:42:04,2019-04-09 14:42:08,4.043s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-09 14:42:08,2019-04-09 14:42:08,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-09 14:42:08,2019-04-09 14:42:16,7.524s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.86,,2019-04-09 14:42:16,2019-04-09 14:42:16,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.86,,2019-04-09 14:42:16,2019-04-09 14:42:16,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC05-PaymentSection,Chrome 73.0.3683.86,This section is used to paid the transaction,2019-04-09 14:42:16,2019-04-09 14:42:34,17.999s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 14:42:16,2019-04-09 14:42:19,3.004s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Chrome 73.0.3683.86,,2019-04-09 14:42:19,2019-04-09 14:42:19,0.104s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Chrome 73.0.3683.86,,2019-04-09 14:42:19,2019-04-09 14:42:19,0.063s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 14:42:19,2019-04-09 14:42:22,3.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Chrome 73.0.3683.86,,2019-04-09 14:42:22,2019-04-09 14:42:25,3.310s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 14:42:25,2019-04-09 14:42:28,3.003s,PASSED
+"setText(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Policy_No_Search)",Chrome 73.0.3683.86,,2019-04-09 14:42:28,2019-04-09 14:42:29,0.220s,PASSED
+"sendKeys(findTestObject(""TC05-PaymentSection/PolicyNoSearchBox""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-09 14:42:29,2019-04-09 14:42:29,0.047s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-09 14:42:29,2019-04-09 14:42:34,5.002s,PASSED
+,,,,,,
+Test Cases/TC05-PaymentSection,Chrome 73.0.3683.86,This section is used to paid the transaction,2019-04-09 14:42:34,2019-04-09 14:42:40,6.900s,FAILED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 14:42:34,2019-04-09 14:42:37,3.002s,PASSED
+"scrollToElement(findTestObject(""TC05-PaymentSection/Payments""), 3)",Chrome 73.0.3683.86,,2019-04-09 14:42:37,2019-04-09 14:42:37,0.040s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Payments""))",Chrome 73.0.3683.86,,2019-04-09 14:42:37,2019-04-09 14:42:37,0.067s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 14:42:37,2019-04-09 14:42:40,3.003s,PASSED
+"click(findTestObject(""TC05-PaymentSection/Cash and Cheque Payments""))",Chrome 73.0.3683.86,,2019-04-09 14:42:40,2019-04-09 14:42:40,0.751s,FAILED

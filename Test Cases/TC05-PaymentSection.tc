@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This section is used to paid the transaction</description>
+   <name>TC05-PaymentSection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3d7480e-c855-4311-bdcb-a5ad2c72f7b7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40ee224d-c9c5-4749-8e50-9a6add50ee67</id>
+      <masked>false</masked>
+      <name>Policy_No_Search</name>
+   </variable>
+</TestCaseEntity>

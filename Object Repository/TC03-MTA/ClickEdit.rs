@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ClickEdit</name>
+   <tag></tag>
+   <elementGuidId>96f80fe2-7128-4319-897e-b3026bbc9b2b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@id='quoteRecordsList']//tr[2]/td/a[@title='Edit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@id='quoteRecordsList']//tr[2]/td/a[@title='Edit']</value>
+   </webElementProperties>
+</WebElementEntity>

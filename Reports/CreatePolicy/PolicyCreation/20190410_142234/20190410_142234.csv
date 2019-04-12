@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-10 14:22:36,2019-04-10 14:23:45,1m - 8.552s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-10 14:22:51,2019-04-10 14:23:14,22.842s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-10 14:22:51,2019-04-10 14:22:51,0.005s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-10 14:22:51,2019-04-10 14:22:51,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-10 14:22:51,2019-04-10 14:22:52,0.233s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-10 14:22:52,2019-04-10 14:22:52,0.127s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 14:22:52,2019-04-10 14:22:56,4.019s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-10 14:22:56,2019-04-10 14:22:56,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-10 14:22:56,2019-04-10 14:23:14,18.252s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.86,,2019-04-10 14:23:14,2019-04-10 14:23:14,0.001s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.86,,2019-04-10 14:23:14,2019-04-10 14:23:14,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC06-Document,Chrome 73.0.3683.86,,2019-04-10 14:23:14,2019-04-10 14:23:44,30.091s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 14:23:14,2019-04-10 14:23:19,5.003s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Chrome 73.0.3683.86,,2019-04-10 14:23:19,2019-04-10 14:23:23,3.576s,PASSED
+"setText(findTestObject(""TC03-MTA/SearchFields""), Doc_PolicyNo)",Chrome 73.0.3683.86,,2019-04-10 14:23:23,2019-04-10 14:23:25,1.819s,PASSED
+"sendKeys(findTestObject(""TC03-MTA/SearchFields""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-10 14:23:25,2019-04-10 14:23:25,0.061s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 14:23:25,2019-04-10 14:23:30,5.003s,PASSED
+"click(findTestObject(""TC03-MTA/ClickEdit""))",Chrome 73.0.3683.86,,2019-04-10 14:23:30,2019-04-10 14:23:32,1.874s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-10 14:23:32,2019-04-10 14:23:36,4.003s,PASSED
+"click(findTestObject(""TC06-Document/Documents""))",Chrome 73.0.3683.86,,2019-04-10 14:23:36,2019-04-10 14:23:37,1.591s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-10 14:23:37,2019-04-10 14:23:40,2.376s,PASSED
+"click(findTestObject(""TC06-Document/ADDDocument""))",Chrome 73.0.3683.86,,2019-04-10 14:23:40,2019-04-10 14:23:40,0.587s,PASSED
+delay(4),Chrome 73.0.3683.86,,2019-04-10 14:23:40,2019-04-10 14:23:44,4.002s,PASSED

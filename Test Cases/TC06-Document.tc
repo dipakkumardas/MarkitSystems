@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06-Document</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>692aca0d-a7f9-4737-8ab6-5dcc1b1458ac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f07103c1-ce60-4a0c-8855-e2928d6d7149</id>
+      <masked>false</masked>
+      <name>Doc_PolicyNo</name>
+   </variable>
+</TestCaseEntity>

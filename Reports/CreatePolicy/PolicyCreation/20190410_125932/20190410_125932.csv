@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-10 12:59:34,2019-04-10 13:00:06,32.365s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-10 12:59:43,2019-04-10 12:59:53,9.988s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-10 12:59:44,2019-04-10 12:59:44,0.003s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-10 12:59:44,2019-04-10 12:59:44,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-10 12:59:44,2019-04-10 12:59:44,0.226s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-10 12:59:44,2019-04-10 12:59:44,0.123s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-10 12:59:44,2019-04-10 12:59:48,4.021s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-10 12:59:48,2019-04-10 12:59:48,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-10 12:59:48,2019-04-10 12:59:53,5.389s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 73.0.3683.86,,2019-04-10 12:59:53,2019-04-10 12:59:53,0.002s,NOT_RUN
+log.logInfo(“Dipak”),Chrome 73.0.3683.86,,2019-04-10 12:59:53,2019-04-10 12:59:53,0.001s,NOT_RUN
+,,,,,,
+Test Cases/TC06-Document,Chrome 73.0.3683.86,,2019-04-10 12:59:53,2019-04-10 13:00:05,11.934s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 12:59:54,2019-04-10 12:59:59,5.004s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Chrome 73.0.3683.86,,2019-04-10 12:59:59,2019-04-10 12:59:59,0.931s,PASSED
+"setText(findTestObject(""TC03-MTA/SearchFields""), Doc_PolicyNo)",Chrome 73.0.3683.86,,2019-04-10 12:59:59,2019-04-10 13:00:00,0.686s,PASSED
+"sendKeys(findTestObject(""TC03-MTA/SearchFields""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-10 13:00:00,2019-04-10 13:00:00,0.122s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-10 13:00:00,2019-04-10 13:00:05,5.003s,PASSED

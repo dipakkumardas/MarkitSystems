@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-04 18:31:59,2019-04-04 18:32:41,41.779s,PASSED
+,,,,,,
+Test Cases/TC01-LoginApplication,Chrome 73.0.3683.86,,2019-04-04 18:32:09,2019-04-04 18:32:19,9.908s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-04 18:32:09,2019-04-04 18:32:09,0.004s,NOT_RUN
+"navigateToUrl(""https://dev.offshoresoftwaresolutions.net/markit_coreV2/Sites/CoreTest/login/admin_display"")",Chrome 73.0.3683.86,,2019-04-04 18:32:09,2019-04-04 18:32:09,0.001s,NOT_RUN
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_username""), ""dDasTester"")",Chrome 73.0.3683.86,,2019-04-04 18:32:09,2019-04-04 18:32:09,0.286s,PASSED
+"setText(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/input_Login to your account_password""), ""Czybm6R*"")",Chrome 73.0.3683.86,,2019-04-04 18:32:09,2019-04-04 18:32:10,0.146s,PASSED
+"delay(4, STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-04 18:32:10,2019-04-04 18:32:14,4.024s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-04 18:32:14,2019-04-04 18:32:14,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/TC-LoginApplication/Page_Markit core new  Login/button_Login""))",Chrome 73.0.3683.86,,2019-04-04 18:32:14,2019-04-04 18:32:19,5.227s,PASSED
+,,,,,,
+Test Cases/TC03-MTA,Chrome 73.0.3683.86,,2019-04-04 18:32:19,2019-04-04 18:32:40,21.557s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-04 18:32:19,2019-04-04 18:32:19,0.127s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Chrome 73.0.3683.86,,2019-04-04 18:32:19,2019-04-04 18:32:21,1.911s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-04 18:32:21,2019-04-04 18:32:22,0.529s,PASSED
+"setText(findTestObject(""TC03-MTA/SearchFields""), ""DASD/POLICY/002607"")",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.316s,PASSED
+"sendKeys(findTestObject(""TC03-MTA/SearchFields""), Keys.chord(ENTER))",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.048s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:27,5.004s,PASSED
+"click(findTestObject(""TC03-MTA/ClickEdit""))",Chrome 73.0.3683.86,,2019-04-04 18:32:27,2019-04-04 18:32:28,1.421s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:32:28,2019-04-04 18:32:30,2.003s,PASSED
+"click(findTestObject(""TC03-MTA/MTA TAB""))",Chrome 73.0.3683.86,,2019-04-04 18:32:30,2019-04-04 18:32:32,1.712s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-04 18:32:32,2019-04-04 18:32:33,1.162s,PASSED
+"click(findTestObject(""TC03-MTA/GO BUTTON""))",Chrome 73.0.3683.86,,2019-04-04 18:32:33,2019-04-04 18:32:40,6.474s,PASSED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-04 18:32:40,2019-04-04 18:32:40,0.610s,PASSED

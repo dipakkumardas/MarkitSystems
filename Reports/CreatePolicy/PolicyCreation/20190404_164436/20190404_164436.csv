@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PolicyCreation,Chrome 73.0.3683.86,,2019-04-04 16:44:38,2019-04-04 16:44:58,20.086s,FAILED
+,,,,,,
+Test Cases/TC03-MTA,Chrome 73.0.3683.86,,2019-04-04 16:44:44,2019-04-04 16:44:57,13.548s,FAILED
+waitForJQueryLoad(5),Chrome 73.0.3683.86,,2019-04-04 16:44:44,2019-04-04 16:44:44,0.130s,PASSED
+"click(findTestObject(""TC03-MTA/PolicyRecord""))",Chrome 73.0.3683.86,,2019-04-04 16:44:44,2019-04-04 16:44:57,13.250s,FAILED
